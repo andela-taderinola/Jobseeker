@@ -33,34 +33,39 @@
 		bottom: 0.2em;
 	}
 
-
-	/*#partners {
-		text-align: center;
-		padding: 0 0 2em 0;
-	}*/
-
-	/*#partners img {
-		width: 3.5em;
-		height: 3.5em;
-	}*/
-
-	#partners ul {
-		display: webkit-flex;
-		-webkit-column-count: 2;
-	}
-
 }
 
 
 @media screen and (max-width: 35em) {
+
+	#upper_section {
+		border-top: 1px solid silver;
+		position: relative;
+		top: 0.05%;
+		background: url('../img/IMG_9486.jpg') no-repeat;
+		background-size: 110% 100%;
+	}
 
 	.post_job {
 		position: relative;
 		margin: 24% 1% 5% 21%;
 	}
 
-	.header_nav{
-		margin-right: 0.5em;
+	.post_job h1, .hire h2 {
+		font-size: 1em;
+	}
+
+	.post_job p {
+		font-size: 0.8em;
+	}
+
+	.header_nav {
+		margin-right: 0.1em;
+	}
+
+	.header_nav a {
+		margin-right: 0.01em;
+		font-size: 0.6em;
 	}
 	
 	.arrow img {
@@ -69,13 +74,23 @@
 
 	.process li {
 		display: block;
+		text-align: left;
+	}
+
+	.process ul {
+		margin-left: 2.8em;
+	}
+
+	.process li p {
+		display: inline-block;
+		text-align: left;
 	}
 
 	.process img {
 		position: relative;
 		width: 9vw;
 		height: 9vw;
-		margin: 0;
+		margin: 0 2em;
 	}
 
 	.hire ul {
@@ -96,13 +111,13 @@
 		position: relative;
 		background: #000;
 		opacity: 0.7;
-		padding: 3em 0 0.2em 0.5em;
+		padding: 3em 0 0.2em 0.3em;
 		text-align: center;
 	}
 
 	.footer_nav a {
 		color: #fff;
-		margin-right: 1em;
+		margin-right: 0.8em;
 		font-weight: lighter;
 		font-size: 0.6em;
 	}
