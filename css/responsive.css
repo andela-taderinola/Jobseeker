@@ -1,5 +1,13 @@
-@media screen and (max-width: 53em) {
-		
+@media screen and (max-width: 56.5em) {
+	
+
+	#logo {
+		width: 20%;
+		height: 20%;
+		left: 2%;
+		top: 0.01%;
+	}
+
 	.process img {
 		position: relative;
 		width: 6vw;
@@ -44,7 +52,12 @@
 }
 
 
-@media screen and (max-width: 31em) {
+@media screen and (max-width: 35em) {
+
+	.post_job {
+		position: relative;
+		margin: 24% 1% 5% 21%;
+	}
 
 	.header_nav{
 		margin-right: 0.5em;
