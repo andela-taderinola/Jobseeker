@@ -1,0 +1,327 @@
+/*********************************
+	RESET
+**********************************/
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/****************************************************
+			NEW STYLING
+****************************************************/
+
+body {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	z-index: 40;
+	font-family: Kalinga, sans-serif;
+	letter-spacing: -0.02em;
+}
+
+.container {
+	position: relative;
+	display: block;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto 0;
+	z-index: 10;	
+}
+
+#upper_section {
+	border-top: 1px solid silver;
+	position: relative;
+	top: 0.05%;
+	background: url('../img/IMG_9486.jpg') no-repeat;
+	background-size: cover;
+}
+
+.post_job {
+	position: relative;
+	margin: 18% 2% 5% 20%;
+}
+
+.hire {
+	text-align: center;
+	background: #000;
+	opacity: 0.6;
+	font-weight: lighter;
+	padding: 0.15em 0;
+}
+
+.process {
+	text-align: center;
+	padding: 4em 0;
+	background: #F5F5F5;
+	font-weight: lighter;
+	line-height: 1;
+	opacity: 0.8;
+}
+
+.job_seeker {
+	text-align: center;
+	padding: 3.5em 0 3em 0;
+	background: url('../img/blurred_bg.jpg') no-repeat;
+	background-size: cover;
+}
+
+#partners {
+	text-align: center;
+	padding: 1em 0.7em 3em;
+}
+
+/****************************************************
+				IMAGES
+****************************************************/
+
+#logo {
+	position: relative;
+	float: left;
+	clear: both;
+	width: 22%;
+	height: 22%;
+	z-index: 50;
+	left: 5%;
+	top: 0.01%;
+}
+
+.process img {
+	position: relative;
+	width: 8vw;
+	height: 8vw;
+	margin: 0;
+}
+
+.arrow img {
+	position: relative;
+	bottom: 2.9em;
+	width: 4.6vw;
+	height: 6vw;
+	margin: 0;
+}
+
+#contacts {
+	position: relative;
+	bottom: 0.7em;
+}
+
+#partners img {
+	width: 4em;
+	height: 4em;
+}
+
+/****************************************************
+				NAVIGATIONS
+****************************************************/
+
+#upper_bar{
+	position: relative;
+	display: block;
+	height: 3%;
+	padding: 1.3em 1.3em;
+	background: url('../img/header_back.jpg') no-repeat;
+	background-size: cover;
+	z-index: 20;
+}
+
+.header_nav{
+	position: relative;
+	float: right;
+	height: 5%;
+	margin: auto 3em auto 0;
+	bottom: 0.5em;
+	color: #000;
+	z-index: 30;
+}
+
+.footer_nav {
+	border-top: 3px solid green;
+	position: relative;
+	background: #000;
+	opacity: 0.7;
+	padding: 3em 0 1.5em 5.5em;
+}
+
+/****************************************************
+				LINKS, HEADERS AND PARAGRAPHS
+****************************************************/
+
+a {
+	text-decoration: none;
+	color: #000;
+	text-align: center;
+}
+
+a:hover {
+		text-decoration: underline;
+}
+
+.footer_nav a {
+	color: #fff;
+	margin-right: 2em;
+	font-weight: lighter;
+	font-size: 0.8em;
+}
+
+.header_nav a {
+	margin: 0 1em 0 0;
+	font-weight: bold;
+	font-size: 2.7vmin;
+	opacity: 0.7;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	margin: 0.5em 0;
+}
+
+h2 {
+	font-size: 1.7em;
+	font-weight: lighter;
+	opacity: 0.8;
+}
+
+.hire h2{
+	margin: 0.8em 0 -0.4em 0;
+	color: #fff;
+}
+
+.process h2 {
+	margin-bottom: 1em;
+}
+
+.job_seeker h2 {
+	letter-spacing: 0.03em;
+	margin: 0  0 1.3em 0;
+}
+
+#partners h2 {
+	opacity: 0.6;
+	margin: 0.8em;
+}
+
+.job_seeker p {
+	margin: 0 0 1.3em 0;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.5;
+	font-weight: lighter;
+	margin: 0;
+	opacity: 0.8;
+}
+
+.process p {
+	line-height: 1;
+	margin-top: 0.8em;
+}
+
+
+/****************************************************
+				BUTTONS
+****************************************************/
+
+.button {
+	width: 12em;
+	height: 2.6em;
+	background: green;
+	color: #fff;
+	font-weight: lighter;
+	border: 1px solid green;
+	opacity: 0.9;
+}
+
+.button:hover {
+	font-weight: bold;
+	border: 1px solid lightgreen;
+}
+
+.post_job .button {
+	margin: 0.8em 0.1em;
+}
+
+.job_seeker .button {
+	width: 10.5em;
+	height: 2.6em;
+}
+
+/****************************************************
+				LISTS
+****************************************************/
+
+ .hire li {
+ 	display: inline-block;
+ 	margin: -2em 0.6em 2em 0.6em;
+ 	color: #fff;
+ 	font-size: 0.75em;
+ 	letter-spacing: 0.1em;
+ }
+
+ .hire li:nth-child(even) {
+	margin: 0;
+	font-weight: bolder;
+	font-size: 2.5em;
+}
+
+.process li {
+	display: inline-block;
+	margin: 2em 1.2em 0 1.2em;
+}
+
+#partners li {
+	border: 2px lightgray solid;
+	display: inline-block;
+	padding: 0.9em 3.3em;
+	margin: 1.2em;
+	opacity: 0.8;
+}

@@ -1,0 +1,125 @@
+@media screen and (max-width: 56.5em) {
+	
+
+	#logo {
+		width: 20%;
+		height: 20%;
+		left: 2%;
+		top: 0.01%;
+	}
+
+	.process img {
+		position: relative;
+		width: 6vw;
+		height: 6vw;
+		margin: 0;
+	}
+
+		.process li {
+		display: inline-block;
+		margin: 2em 0 0 0;
+	}
+
+	.arrow img {
+		position: relative;
+		bottom: 2.9em;
+		width: 2.3vw;
+		height: 3vw;
+		margin: 0;
+	}
+
+	#contacts {
+		position: relative;
+		bottom: 0.2em;
+	}
+
+}
+
+
+@media screen and (max-width: 35em) {
+
+	#upper_section {
+		border-top: 1px solid silver;
+		position: relative;
+		top: 0.05%;
+		background: url('../img/IMG_9486.jpg') no-repeat;
+		background-size: 110% 100%;
+	}
+
+	.post_job {
+		position: relative;
+		margin: 24% 1% 5% 21%;
+	}
+
+	.post_job h1, .hire h2 {
+		font-size: 1em;
+	}
+
+	.post_job p {
+		font-size: 0.8em;
+	}
+
+	.header_nav {
+		margin-right: 0.1em;
+	}
+
+	.header_nav a {
+		margin-right: 0.01em;
+		font-size: 0.6em;
+	}
+	
+	.arrow img {
+		display: none;
+	}	
+
+	.process li {
+		display: block;
+		text-align: left;
+	}
+
+	.process ul {
+		margin-left: 2.8em;
+	}
+
+	.process li p {
+		display: inline-block;
+		text-align: left;
+	}
+
+	.process img {
+		position: relative;
+		width: 9vw;
+		height: 9vw;
+		margin: 0 2em;
+	}
+
+	.hire ul {
+		margin: 2em; 
+	}
+
+	.hire li {
+		display: block;
+		margin: 0.5em;
+	}
+
+	.hire li:nth-child(even) {
+		display: none;
+	}
+
+	.footer_nav {
+		border-top: 3px solid green;
+		position: relative;
+		background: #000;
+		opacity: 0.7;
+		padding: 3em 0 0.2em 0.3em;
+		text-align: center;
+	}
+
+	.footer_nav a {
+		color: #fff;
+		margin-right: 0.8em;
+		font-weight: lighter;
+		font-size: 0.6em;
+	}
+}
+
